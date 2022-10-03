@@ -12,7 +12,7 @@ on:
 jobs:
   ClockIn:
     runs-on: ubuntu-latest
-    if: github.event.repository.owner.name == 'zBlackIf'
+#    if: github.event.repository.owner.name == 'zBlackIf'
     steps:
       - name: Checkout
         uses: actions/checkout@master
